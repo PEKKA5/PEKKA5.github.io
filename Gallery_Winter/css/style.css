@@ -1,0 +1,84 @@
+div {
+    padding: 0;
+    margin: 0;
+	box-sizing: border-box;
+
+}
+@font-face {
+	font-family: Yanone Kaffessatz ExtraLight;
+	src: url(../fonts/YanoneKaffeesatz-VariableFont_wght.ttf);
+}
+main {
+	width: 70%;
+	padding: 50px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	box-shadow: 4px 4px 5px 1px rgba(0, 0, 0, 1);
+	background-image: url(../img/Фон_07.jpg);
+}
+.photo {
+	max-width: 520px;
+	width: calc(30vw - 10px);
+	height: calc((35vw - 40px) / 16 * 10);
+	margin: 20px;
+	/*background: red;  */
+	box-shadow: 4px 4px 1px 1px rgba(0, 0, 0, 1);
+	background-position: center;
+	background-size: cover;
+	opacity: 0.87;
+	transition: 2s, transform 1.3s;
+}
+.photo:hover {
+    opacity: 1;
+    transform: scale(1.1) rotate(0deg);
+    z-index: 10;
+    box-shadow: 4px 4px 1px 1px rgba(0, 0, 0, 1);
+}
+
+h1 {
+	width: 100%;
+	text-align: center;
+	font-size: 48px;
+}
+body {
+	font-family: Yanone Kaffessatz ExtraLight;
+	background-image: url(../img/Фон_03.jpg);
+	}
+.photo1 {
+	background-image: url(../img/1.jpg);
+}
+.photo2 {
+	background-image: url(../img/2.jpg);
+}
+.photo3 {
+	background-image: url(../img/3.jpg);
+}
+.photo4 {
+	background-image: url(../img/4.jpg);
+}
+.photo5 {
+	background-image: url(../img/5.jpg);
+}
+.photo6 {
+	background-image: url(../img/6.jpg);
+}
+.photo7 {
+	background-image: url(../img/7.jpg);
+}
+.photo8 {
+	background-image: url(../img/8.jpg);
+}
+.photo9 {
+	background-image: url(../img/9.jpg);
+}
+.photo10 {
+	background-image: url(../img/10.jpg);
+}
+.photo11 {
+	background-image: url(../img/11.jpg);
+}
+.photo12 {
+	background-image: url(../img/12.jpg);
+}
